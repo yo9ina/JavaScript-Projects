@@ -1,5 +1,9 @@
-function myFirstFunction() {
-    var str = "This text is green!";
-    var result = str.fontcolor("green");
-    document.getElementById("Green_Text").innerHTML = result;
+// This function modify and concatenate string
+// on click over "Click me"
+// paragraf
+
+function myFunction() {
+    var str = "This text is new";
+    str += " or not!";
+    document.getElementById("concatenate").innerHTML = str;
 }
