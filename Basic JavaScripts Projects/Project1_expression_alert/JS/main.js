@@ -1,2 +1,2 @@
-var message1 = "Hello World!!"
-document.write(message1);
+var mesVar = "Assign a string value to a variable.";
+document.write(mesVar);
