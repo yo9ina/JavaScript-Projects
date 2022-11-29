@@ -14,3 +14,5 @@ document.writeln(Daughter);
 document.writeln(Mom);
 document.writeln(Dad);
 document.writeln(Family);
+
+document.write(99 / 3);
