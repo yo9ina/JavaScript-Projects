@@ -37,3 +37,15 @@ function funcNegOp() {
     var text = "Negation operator for 200 is: ";
     document.getElementById("negOp").innerHTML = text + "-200";
 }
+function funcInc() {
+    var incText = "Click to increment one unit from 10. => "
+    var incNum = 10;
+    incNum++;
+    document.getElementById("increment").innerHTML = incText + incNum;
+}
+function funcDecr() {
+    var decText = "Click to decrement one unit from 10. => "
+    var decNum = 10;
+    decNum--;
+    document.getElementById("decrement").innerHTML = decText + decNum;
+}
