@@ -30,3 +30,6 @@ function funcMul() {
     var res = 5*10/100;
     document.getElementById("mul").innerHTML = "(5 * 10) /100 = " + res;
 }
+function funcModul() {
+    document.getElementById("modul").innerHTML = "Modulus 25 % 6 = " + (25%6);
+}
