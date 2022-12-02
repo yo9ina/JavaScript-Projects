@@ -3,7 +3,13 @@
 // paragraf
 
 function myFunction() {
-    var str = "This text is new";
-    str += " or not!";
-    document.getElementById("concatenate").innerHTML = str;
+    var strx = "This is number ",
+        stry = " plus ",
+        strz = " equal ",
+        dot = ".",
+        x = 5,
+        y = 6;
+
+    str = strx + x + stry + y + strz + (x+y) +dot;
+    document.getElementById("test").innerHTML = str;
 }
