@@ -1,3 +1,5 @@
+// Basic Math Operations
+
 function funcMath() {
     var tot_divide = 99 / 3;
     var divide = "99 \/ 3" + " = " + tot_divide;
@@ -18,14 +20,19 @@ function funcMathMultiply() {
         multiply = "100 \* 20" + " = " + tot_multiply;
     document.getElementById("multiply").innerHTML = multiply;
 }
-function notHere() {
+
+// Multiple Math Operations
+
+function notHere() { // Event for double click on button
     document.getElementById("no").innerHTML = "NOT HERE!!!<br>On Label not button!!!"
     document.getElementById("no").style.color = "yellow";
     document.getElementById("no").style.background = "red";
 }
-function color() {
+function color() {  //Function for single click on button
     document.getElementById("no").style.color = "red";
 }
+
+// Other Math Operation
 function funcMul() {
     var res = 5*10/100;
     document.getElementById("mul").innerHTML = "(5 * 10) /100 = " + res;
