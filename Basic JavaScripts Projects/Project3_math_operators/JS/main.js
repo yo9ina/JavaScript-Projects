@@ -49,3 +49,7 @@ function funcDecr() {
     decNum--;
     document.getElementById("decrement").innerHTML = decText + decNum;
 }
+function funcRnd() {
+    var numRnd = (Math.random() * 100);
+    document.getElementById("rnd").innerHTML = "Random number up to 100. => " + numRnd;
+}
