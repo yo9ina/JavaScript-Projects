@@ -26,3 +26,7 @@ function notHere() {
 function color() {
     document.getElementById("no").style.color = "red";
 }
+function funcMul() {
+    var res = 5*10/100;
+    document.getElementById("mul").innerHTML = "(5 * 10) /100 = " + res;
+}
