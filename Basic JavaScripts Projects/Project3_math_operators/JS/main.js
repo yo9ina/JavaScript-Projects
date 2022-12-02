@@ -49,7 +49,11 @@ function funcDecr() {
     decNum--;
     document.getElementById("decrement").innerHTML = decText + decNum;
 }
-function funcRnd() {
+function funcRndDec() {
     var numRnd = (Math.random() * 100);
-    document.getElementById("rnd").innerHTML = "Random number up to 100. => " + numRnd;
+    document.getElementById("rndDec").innerHTML = "Random number up to 100 Decimal. => " + numRnd;
+}
+function funcRnd() {
+    var numRnd = Math.floor((Math.random() * 100));
+    document.getElementById("rnd").innerHTML = "Random number up to 100 Integer. => " + numRnd;
 }
