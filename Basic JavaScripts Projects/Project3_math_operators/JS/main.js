@@ -33,3 +33,7 @@ function funcMul() {
 function funcModul() {
     document.getElementById("modul").innerHTML = "Modulus 25 % 6 = " + (25%6);
 }
+function funcNegOp() {
+    var text = "Negation operator for 200 is: ";
+    document.getElementById("negOp").innerHTML = text + "-200";
+}
