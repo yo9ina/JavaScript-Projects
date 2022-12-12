@@ -3,4 +3,5 @@ function myFunctionPos() {
 }
 function myFunctionNeg() {
     document.getElementById("Test2").innerHTML = 10 <= 3;
+    console.log(2 + 2);
 }
