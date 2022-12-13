@@ -1,13 +1,13 @@
 function funcTrEq(){
-    var a = "alfa",
-        b = "beta",
-        c = "alfa",
+    var a = 15,
+        b = 20,
+        c = 30,
         d = 10,
-        e = "ten",
+        e = 40,
         f = 11,
-        m = document.getElementById("tripleEqual").innerHTML = ("Return true by ensuring to match the data type and value: " + (a === c) + "."),
-        n = document.getElementById("tripleEqual").innerHTML = ("Return false by writing a different data type and different value: " + (b === d) + "."),
-        o = document.getElementById("tripleEqual").innerHTML = ("Return false by writing a different data type but the same value for both: " + (e === d) + ".");
-        p = document.getElementById("tripleEqual").innerHTML = ("Return false by writing the same data type but a different value for both: " + (f === d) + ".");
+        m = document.getElementById("tripleEqual").innerHTML = ((a > d) + " AND " + (a < c) + " = " + ((a>d)&&(a<c))),
+        n = document.getElementById("tripleEqual").innerHTML = ((a < d) + " AND " + (a < c) + " = " + ((a<d)&&(a<c))),
+        o = document.getElementById("tripleEqual").innerHTML = ((b > d) + " OR " + (e < f) + " = " + ((a>d)||(a<c)));
+        p = document.getElementById("tripleEqual").innerHTML = ((a > d) + " OR " + (a < c) + " = " + ((a>d)||(a<c)));
     document.write(m + "<br>" + n + "<br>" + o + "<br>" + p);
 }
