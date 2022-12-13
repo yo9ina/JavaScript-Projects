@@ -1,4 +1,5 @@
 
 function myFunction() {
-    document.write('10' + 5);
+    var x = ("10" + 5) > 200;
+    console.log("Operation is: " + x);
 }
