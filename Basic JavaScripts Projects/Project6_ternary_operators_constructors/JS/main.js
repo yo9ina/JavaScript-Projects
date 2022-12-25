@@ -9,7 +9,7 @@ var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik =new Vehicle("Ford", "Pinto", 1971, "Mustard");
 
 function myFunction() {
-    document.getElementById("Keywords_and_Constructors").innerHTML = 
-    "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
-    " manufactured in " + Erik.Vehicle_Year;
+    document.getElementById("New_and_This").innerHTML = 
+    "Jack drives a " + Jack.Vehicle_Color + "-colored " + Jack.Vehicle_Model +
+    " manufactured in " + Jack.Vehicle_Year;
 }
