@@ -1,6 +1,6 @@
-function RideFunction() {
-    var Height, Can_ride;
-    Height = document.getElementById("Height").value;
-    Can_ride = (Height < 52) ? "You are too short":"You are tall enough";
-    document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
+function voteFunction() {
+    var Voter, Elect;
+    Voter = document.getElementById("Voter").value;
+    Elect = (Voter < 18) ? "You are not old enough to":"You can";
+    document.getElementById("Elect").innerHTML = Elect + " vote.";
 }
