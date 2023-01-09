@@ -1,8 +1,15 @@
-var x = 5;              //global varriable
+/* 
+    1. Write out a function with an if statement that utilizes
+        the new Date().getHours() method covered in the previous course step.
+    2. Write out a document.getElementById() method as covered
+        in the previous course step and reference the id attribute
+        in the HTML file.
+    3. Save the file.
+*/
 
-function test_1() {
-    // var y = 20;         //local variable
-    var z = x + y;      // Sum of local and global var
-    console.log(z);     // show error without y variable:
-    // "y is not defined"
+function myFunction() {
+    var timp = new Date().getHours();
+    if (timp < 18) {
+        document.getElementById("test").innerHTML = "How are you today?";
+    }
 }
