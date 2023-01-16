@@ -27,5 +27,5 @@ function errorFunc() {
     }
 
     document.getElementById("errFunc").innerHTML = Reply; // display false result
-    console.log(Reply);                                   // display correct result in console
+    console.log(Reply);                                   // display false result in console
 }
