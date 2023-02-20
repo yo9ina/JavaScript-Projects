@@ -1,3 +1,6 @@
+// Assignment Submission #8
+
+
 // Assignment #44
 // Create a JS folder within the Project8_string_methods folder.  
 // Create a new file within the JS folder and name it main.js.
