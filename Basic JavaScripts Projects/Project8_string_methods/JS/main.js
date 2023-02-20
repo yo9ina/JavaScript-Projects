@@ -22,3 +22,13 @@ function slice_Method() {
     var Section = Sentence.slice(11, 17);
     document.getElementById("Slice").innerHTML = Section;
 }
+
+
+// Assignment #46
+// Working within the Project8_string_methods folder:
+// Within your main.js file, use the toString() method to return a number as a string.
+
+function stringMethod() {
+    var X = 182;
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
+}
