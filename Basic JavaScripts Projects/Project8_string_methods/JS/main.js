@@ -32,3 +32,14 @@ function stringMethod() {
     var X = 182;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
+
+
+// Assignment #47
+// Working within the Project8_string_methods folder:
+// Within your main.js file, utilize the toPrecision() method to return
+// a string as a number of a specified length.
+
+function precisionMethod() {
+    var Y = 12345.67890123456789;
+    document.getElementById("Precision").innerHTML = Y.toPrecision(8);
+}
