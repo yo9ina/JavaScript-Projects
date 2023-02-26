@@ -1,15 +1,13 @@
 
-// Assignment #50
-// Create a JS folder within the Project10_loops_arrays folder.
-// Create a new file and name it main.js.
-// In it, create a while loop. Save the file.
+// Assignment #51
 
-function callLoop() {
-    var Digit = "";
-    var X = 1;
-    while (X < 11) {
-        Digit += "<br>" + X;
-        X++;
+var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
+var Content = "";
+var Y;
+
+function forLoop() {
+    for (Y = 0; Y < Instruments.length; Y++) {
+        Content += "Instrument #" + (Y + 1) + " is: " + Instruments[Y] + "<br>";
     }
-    document.getElementById("Loop").innerHTML = Digit;
+    document.getElementById("List_of_instruments").innerHTML = Content;
 }
