@@ -1,3 +1,15 @@
+div {
+    background-color: aqua;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border: dotted 1px black;
+    padding: 0 10px 10px 10px;
+    margin-top: 50px;
+}
+
 p {
-    color: blueviolet;
+    color: yellow;
+    font-weight: bold;
+    background-color: rgb(153, 8, 68);
 }
