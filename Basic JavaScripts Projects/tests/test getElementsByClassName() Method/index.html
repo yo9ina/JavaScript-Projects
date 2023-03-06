@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="click">This text will change!</h1>
+    <h3 class="click">This text will not change.</h3>
+    <button onclick="hiFunc()">Click me!</button>
+
+    <script>
+        function hiFunc() {
+            var A = document.getElementsByClassName("click");
+            A[0].innerHTML = "The text has changed.";
+        }
+    </script>
+</body>
+
+</html>
