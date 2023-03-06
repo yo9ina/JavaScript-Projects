@@ -30,3 +30,21 @@ function canVas() {
     ctx.fillRect(2, 2, 296, 146);
     ctx.stroke();
 }
+
+// Challenge #17
+// Define and learn how to utilize the HTML canvas createLinearGradient() Method
+// Create a gradient color background within a canvas.
+// Save your code and successfully execute it in the browser.
+
+function canVasGrad() {
+    var c = document.getElementById("canvas_gradient");
+    var ctx = c.getContext("2d");
+    var grd = ctx.createLinearGradient(0, 0, 300, 0);
+
+    grd.addColorStop(0, "blue");
+    grd.addColorStop(0.5, "white");
+    grd.addColorStop(1, "red");
+
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 20, 300, 110);
+}
