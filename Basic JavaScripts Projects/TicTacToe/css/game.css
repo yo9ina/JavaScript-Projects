@@ -34,3 +34,11 @@ canvas {
     /* This property makes our canvas invisible */
     pointer-events: none;
 }
+
+h1 {
+    /* This center h1 and apply shadow, create space (20px) between title and canvas container*/
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 5px red;
+    padding-bottom: 20px;
+}
