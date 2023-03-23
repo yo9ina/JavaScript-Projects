@@ -1,3 +1,18 @@
+body {
+    background-color: darkblue;
+}
+
+h1,
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgrey;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgray;
+}
+
 #menuBG {
     width: 400px;
     height: 470px;
