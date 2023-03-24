@@ -23,6 +23,8 @@ function getReceipt() {
         sizeTotal = 16;
     }
     runningTotal = sizeTotal;
+    // After push "Place Order" button
+    // Print some data in console
     console.log(selectedSize + " = $" + sizeTotal + ".00");
     console.log("size text1: " + text1);
     console.log("subtotal: $" + runningTotal + ".00");
@@ -48,10 +50,15 @@ function getTopping(runningTotal, text1) {
         toppingTotal = 0;
     }
     runningTotal = (runningTotal + toppingTotal);
+    // After push "Place Order" button
+    // Print some data in console
     console.log("total selected topping items: " + toppingCount);
     console.log(toppingCount + " topping - 1 free toping = " + "$" + toppingTotal + ".00");
     console.log("topping text1: " + text1);
     console.log("Purcase Total: " + "$" + runningTotal + ".00");
+    // After push "Place Order" button
+    // Print order on screen 
     document.getElementById("showText").innerHTML = text1;
+    // Print total price on screen
     document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$" + runningTotal + ".00" + "</strong></h3>";
 }
